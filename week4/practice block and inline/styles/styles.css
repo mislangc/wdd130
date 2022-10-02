@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+}
+nav, footer {
+    text-align: center;
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+}
+img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+main p {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+    background: rgba(0, 128, 0, 0.3) /* Green background with 30% opacity */
+    
+}
+footer p {
+    font-size: 20px;
+    margin: 20px auto;
+}
+a:hover {
+    background-color: brown;
+    color: white;
+}
