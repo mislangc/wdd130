@@ -1,0 +1,18 @@
+.desk, .graphic, .person {
+    width: 25%;
+    box-sizing: border-box;
+    margin: 50px;
+    border-radius: 50%;
+    border: 20px solid rgb(80, 79, 79);
+}
+nav {
+    background-color: grey;
+    block-size: 1000px;
+}
+.circles {
+    text-align: center;
+    width: 100%;
+}
+body {
+    margin: 0;
+}
