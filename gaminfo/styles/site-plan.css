@@ -180,3 +180,23 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+
+.home {
+  max-width: 400px;
+}
+
+.game {
+  max-width: 400px;
+}
+
+.game-hero {
+  max-width: 600px;
+}
+
+.albion-hero {
+  max-width: 600px;
+}
+
+.albion {
+  max-width: 400px;
+}
