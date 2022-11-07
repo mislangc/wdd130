@@ -267,7 +267,7 @@ main section img {
     margin-top: -100px;
 }
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+    #hero, .home-grid, #river-hero, .rivers-home-grid {
         display: block;
         height: auto;
     }
@@ -298,7 +298,7 @@ main section img {
     #background {
         display: none;
     }
-    .mountains, .msg {
+    .mountains, .msg, .river-arizona, .river-idaho, .river-utah, .river-arizona-msg, .river-idaho-msg, .river-utah-msg {
         width: 80%;
         display: block;
         margin: 0 auto;
