@@ -278,16 +278,16 @@ main section img {
         display: block;
         padding: 15px;
     }
-    #hero {
+    #hero, #river-hero {
         margin-top: 0;
     }
-    #hero-msg {
+    #hero-msg, #river-hero-msg {
         margin-top: 0;
     }
     #hero-msg h4 {
         display: none;
     }
-    .home-title {
+    .home-title, .river-home-title {
         font-size: 25px;
         color: #6f7364;
     }
