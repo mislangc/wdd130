@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheest" href="styles/site-plan.css">
+    <link rel="stylesheet" href="styles/styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,23 +10,25 @@
 <body>
     <div id="content">
         <header>
-            <nav>
+            <nav class="top-nav">
+                <div id="user">
+                    <h4 class="login">LOGIN</h4>
+                    <form action="/my-handling-form-page" method="post">
+                        <ul>
+                        <li>
+                            <label for="name">Username:</label>
+                            <input type="text" id="username" name="user_name" />
+                        </li>
+                        <li>
+                            <label for="mail">Password:</label>
+                            <input type="password" id="password" name="user_password" />
+                        </li>
+                        </ul>
+                    </form>
+                </div>  
                 <img class="logo" src="images/gaminfo-logo-200-200.png" alt="gaminfo logo">
-                <h4>LOGIN:</h4>
-                <form action="/my-handling-form-page" method="post">
-                    <ul>
-                      <li>
-                        <label for="name">Username:</label>
-                        <input type="text" id="username" name="user_name" />
-                      </li>
-                      <li>
-                        <label for="mail">Password:</label>
-                        <input type="password" id="password" name="user_password" />
-                      </li>
-                    </ul>
-                  </form>
             </nav>
-            <nav>
+            <nav class="bottom-top-nav">
                 <a href="index.html">Home</a>
                 <a href="games.html">Games</a>
             </nav>
@@ -37,46 +39,46 @@
                 <h1>WELCOME TO GAMINFO</h1>
             </section>
         </div>
+        <div class="home-intro">
+            <h3>Introduction</h3>
+            <p>Games are around the world. Games can be fun, competitive, stress relieving or time consuming. Games are outside the world and inside technologies. This site can help you find games that you want to know more about.</p>
+        </div>
+        <div class="home-content-title">
+            <h2>GAMING PLATFORMS</h2>
+        </div>
         <main id="home-middle">
-            <section class="home-intro">
-                <h3>Introduction</h3>
-                <p>Games are around the world. Games can be fun, competitive, stress relieving or time consuming. Games are outside the world and inside technologies. This site can help you find games that you want to know more about.</p>
-            </section>
-            <div>
-                <h2>GAMING PLATFORMS</h2>
-            </div>
-            <section>
+            <section class="pc-text">
                 <h3>PC/Personal Computer</h3>
-                <p>PC or Personal computer is the basic kind of gadgets where you use a keyboard and a mouse.</p>
+                <p>PC or Personal computer is the most well-known and most used technology in the world where you use a keyboard and a mouse.</p>
             </section>
             <img class="pc-image" src="images/pc-img.jpg" alt="pc-image">
-            <section>
+            <section class="mobile-text">
                 <h3>Mobile</h3>
                 <p>Mobile phones are flexible where you use the screen as a keypad and can be brought anywhere.</p> 
             </section>
             <img class="mobile-image" src="images/mobile-img.jpg" alt="mobile-image">
-            <section>
+            <section class="ps-text">
                 <h3>Playstation</h3>
                 <p>Playstation uses a game controller called joystick where you can play a game by inserting it's game disc in the PS.</p>                
             </section>
             <img class="ps-image" src="images/ps-img.jpg" alt="playstation-image">
-            <section>
+            <section class="xbox-text">
                 <h3>Xbox</h3>
                 <p>Xbox same as playstation but with a complex controller. Xbox has other kinds of controllers and can be played on the internet.</p>                
             </section>
             <img class="xbox-image" src="images/xbox-img.jpg" alt="xbox-images">
         </main>
-        <div>
+        <div class="find-your-game">
             <h1>START YOUR GAMING JOURNEY NOW</h1>
-            <div class="home-button">
-                <a class="find-game" href="games.html">Find your game</a>
+            <div class="find-game">
+                <a class="find-game-button" href="games.html">Find your game</a>
             </div>
         </div>
         <footer>
-            <img class="logo" src="images/gaminfo-logo-200-200.png" alt="gaminfo-logo">
-            <p>Gaminfo &copy 2022 - Carl Mislang</p>
-            <p><a href="site-plan.html">Site Plan</a></p>
-            <div>
+            <img class="bottom-logo" src="images/gaminfo-logo-200-200.png" alt="gaminfo-logo">
+            <p class="copyright">Gaminfo &copy; 2022 - Carl Mislang</p>
+            <p class="site-plan-link"><a href="site-plan.html">Site Plan</a></p>
+            <div id="social-media-links">
                 <a href="https://facebook.com" target="_blank">
                     <img src="images/facebook.png" alt="facebook logo" >
                 </a>

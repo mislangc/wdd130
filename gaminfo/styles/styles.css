@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+
+#content {
+    background-color: #a2a2a2;
+}
+/*Top navigation bar*/
+.top-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #e77a23;
+    border: 1px solid black;
+}
+.logo {
+    grid-column: 2/3;
+    display: block;
+    margin: 0 auto;
+    border-radius: 75px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#user {
+    grid-column: 1/2;
+    margin: 0 auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 1.3em;
+    font-family: Teko;
+}
+.login {
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+/*2nd Top Navigation Bar*/
+.bottom-top-nav {
+    background-color: #535353;
+    border: 1px solid black;
+}
+.bottom-top-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    line-height: 2em;
+    display: inline;
+    margin: 2em;
+    font-family: Teko;
+}
+.bottom-top-nav a:hover {
+    color: #e77a23;
+}
+
+/*Hero Part*/
+#home-hero {
+    display: grid;
+    grid-template-columns: 100%;
+}
+.home-hero-image {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 100%;
+}
+#home-hero section {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: 0 auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: "Press Start 2P";
+    color: #e77a23;
+    font-size: 6em;
+    text-align: center;
+    text-shadow: 10px 10px 10px #535353;
+}
+
+/*Home introduction*/
+.home-intro {
+    width: 30%;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+    color: white;
+    background-color: #535353;
+    font-family: Teko;
+    font-size: 1.3em;
+    box-shadow: 10px 10px 10px #535353;
+    padding: 1.5em
+}
+
+.home-intro h3 {
+    font-family: "Press Start 2P";
+}
+
+.home-intro:hover {
+    opacity: 0.9;
+    transition: 0.4s;
+    transform: scale(1.2);
+}
+
+.home-content-title {
+    text-align: center;
+    font-family: "Press Start 2P";
+    font-size: 2em;
+    color: #e77a23;
+    margin-top: 2em;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+/*Home Content. Make grid*/
+#home-middle {
+    display: grid;
+    grid-template-columns: 50px 1fr 2fr 50px;
+}
+.pc-text {
+    grid-column: 2/3;
+    background-color: #e77a23;
+    padding: 2em;
+    font-family: Teko;
+    font-size: 1.9em;
+    text-align: center;
+    color: white;
+    box-shadow: 10px 10px 10px #535353;
+}
+
+.pc-text h3 {
+    font-family: "Press Start 2P";
+    text-shadow: 5px 5px 10px #535353;
+}
+
+.pc-image {
+    grid-column: 3/4;
+    width: 100%;
+    box-shadow: 10px 10px 10px #535353;
+    
+
+}
+.mobile-text {
+    grid-column: 2/3;
+    background-color: #e77a23;
+    padding: 2em;
+    margin-top: 1em;
+    font-family: Teko;
+    font-size: 1.9em;
+    text-align: center;
+    color: white;
+    box-shadow: 10px 10px 10px #535353;
+}
+
+.mobile-text h3 {
+    font-family: "Press Start 2P";
+    text-shadow: 5px 5px 10px #535353;
+}
+
+
+.mobile-image {
+    grid-column: 3/4;
+    margin-top: 2em;
+    width: 100%;
+    box-shadow: 10px 10px 10px #535353;
+}
+.ps-text {
+    grid-column: 2/3;
+    background-color: #e77a23;
+    padding: 2em;
+    margin-top: 1em;
+    font-family: Teko;
+    font-size: 1.9em;
+    text-align: center;
+    color: white;
+    box-shadow: 10px 10px 10px #535353;
+}
+
+.ps-text h3 {
+    font-family: "Press Start 2P";
+    text-shadow: 5px 5px 10px #535353;
+}
+
+
+.ps-image {
+    grid-column: 3/4;
+    margin-top: 2em;
+    width: 100%;
+    box-shadow: 10px 10px 10px #535353;
+}
+.xbox-text {
+    grid-column: 2/3;
+    background-color: #e77a23;
+    padding: 2em;
+    margin-top: 1em;
+    font-family: Teko;
+    font-size: 1.9em;
+    text-align: center;
+    color: white;
+    box-shadow: 10px 10px 10px #535353;
+}
+
+.xbox-text h3 {
+    font-family: "Press Start 2P";
+    text-shadow: 5px 5px 10px #535353;
+}
+
+
+.xbox-image {
+    grid-column: 3/4;
+    margin-top: 2em;
+    width: 100%;
+    box-shadow: 10px 10px 10px #535353;
+}
+
+/*Bottom Content*/
+.find-your-game {
+    width: 100%;
+    margin: auto;
+    color: #e77a23;
+    margin-top: 2em;
+    text-align: center;
+    font-family: "Press Start 2P";
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-size: 2em;
+}
+.find-game a{
+    text-decoration: none;
+    font-family: Teko;
+    background-color: #535353;
+    padding: 0.5em;
+    color: white;
+    border-radius: 10px;
+    letter-spacing: 0.1em;
+}
+.find-game a:hover {
+    color:black;
+    background-color:#e77a23;
+}
+/*Footer*/
+footer {
+    display: grid;
+    grid-template-columns: 25px 1fr 3fr 1fr 25px;
+    background-color:#535353;
+    margin-top: 5em;
+    border: 2px solid black;
+}
+.bottom-logo {
+    grid-column: 1/2;
+    margin: 10px;
+    border-radius: 75px;
+}
+#social-media-links {
+    margin-top: 20%;
+    grid-column: 4/5;
+}
+footer p {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    text-align: center;
+    font-family: Teko;
+    font-size: 1.75em;
+    margin-top: 1.5em;
+}
+footer .copyright {
+    padding-top: 3em;
+}
+footer a {
+    text-decoration: none;
+    color: white
+}
+footer a:hover {
+    color:#e77a23;
+}   
+footer #social-media-links img:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+} 

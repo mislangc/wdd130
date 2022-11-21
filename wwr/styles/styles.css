@@ -269,6 +269,13 @@ main section img {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     margin-top: -100px;
+
+}
+
+script {
+    color: white;
+    border-color: red;
+    z-index: 5;
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid, #river-hero, .rivers-home-grid {
