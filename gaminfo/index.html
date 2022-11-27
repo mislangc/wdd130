@@ -11,26 +11,22 @@
     <div id="content">
         <header>
             <nav class="top-nav">
-                <div id="user">
-                    <h4 class="login">LOGIN</h4>
-                    <form action="/my-handling-form-page" method="post">
-                        <ul>
-                        <li>
-                            <label for="name">Username:</label>
-                            <input type="text" id="username" name="user_name" />
-                        </li>
-                        <li>
-                            <label for="mail">Password:</label>
-                            <input type="password" id="password" name="user_password" />
-                        </li>
-                        </ul>
-                    </form>
-                </div>  
                 <img class="logo" src="images/gaminfo-logo-200-200.png" alt="gaminfo logo">
             </nav>
             <nav class="bottom-top-nav">
                 <a href="index.html">Home</a>
                 <a href="games.html">Games</a>
+                <div class="dropdown">
+                    <button class="dropbtn">List
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="albion.html">Albion Online</a>
+                      <a href="#">Genshin Impact</a>
+                      <a href="#">Specimen Zero</a>
+                      <a href="#">Stumble Guys</a>
+                    </div>
+                  </div> 
             </nav>
         </header>
         <div id="home-hero">
@@ -95,7 +91,6 @@
                     <img src="images/discord-logo.jpg" alt="discord logo">
                 </a>
             </div>
-
         </footer>
     </div>
 </body>

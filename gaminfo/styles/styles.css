@@ -37,18 +37,67 @@
 .bottom-top-nav {
     background-color: #535353;
     border: 1px solid black;
+    display: flex;
 }
 .bottom-top-nav a {
     color: white;
     text-decoration: none;
     font-size: 2em;
     line-height: 2em;
-    display: inline;
-    margin: 2em;
+    
+    margin: 1px 2em;
     font-family: Teko;
 }
 .bottom-top-nav a:hover {
     color: #e77a23;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+  
+.dropdown .dropbtn {
+    font-size: 2em;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 1px;
+    background-color: inherit;
+    font-family: Teko;
+    margin: 1px 2em;
+    line-height: 2em;
+}
+  
+  .dropdown:hover .dropbtn {
+    color: #e77a23;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #535353;
+    min-width: 16px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding: 1px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.dropdown-content a:hover {
+    background-color: #535353;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+    border: 1px solid black;
 }
 
 /*Hero Part*/
