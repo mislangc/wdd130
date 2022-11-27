@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
 
+/*Home page CSS Starts here*/
+
+
 #content {
     background-color: #a2a2a2;
 }
@@ -19,19 +22,6 @@
     border-radius: 75px;
     margin-top: 10px;
     margin-bottom: 10px;
-}
-#user {
-    grid-column: 1/2;
-    margin: 0 auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    font-size: 1.3em;
-    font-family: Teko;
-}
-.login {
-    font-size: 1.5em;
-    margin: 0;
-    padding: 0;
 }
 /*2nd Top Navigation Bar*/
 .bottom-top-nav {
@@ -323,3 +313,65 @@ footer #social-media-links img:hover {
     transform: scale(1.1);
     transition: 0.4s;
 } 
+
+
+/*2nd subpage CSS starting here*/
+
+/*Hero section*/
+#game-hero {
+    display: grid;
+    grid-template-columns: 100%;
+}
+.game-hero-image {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 100%;
+}
+#game-hero section {
+    color: #e77a23;
+    font-family: "Press Start 2P";
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-shadow: none;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 3em;
+    text-shadow: 5px 5px 5px #535353;
+}
+
+/*Introduction*/
+/*same as home intro*/
+
+/*The main*/
+#game-middle {
+    display: grid;
+    grid-template-columns: 50px 1fr 50px 1fr 50px;
+}
+#game-middle h3 {
+    color: black;
+    margin-top: 0;
+}
+#game-middle img {
+    max-width: 85%;
+    box-shadow: 10px 10px 10px #535353;
+    border-radius: 10%;
+}
+#game-middle img:hover {
+    transition: 0.4s;
+    transform: scale(1.1);
+}
+.game-albion, .game-specimen {
+    grid-column: 2/3;
+    text-decoration: none;
+    font-family: Teko;
+    font-size: 2em;
+    text-align: center;
+}
+.game-genshin, .game-stumble {
+    grid-column: 4/5;
+    text-decoration: none;
+    font-family: Teko;
+    font-size: 2em;
+    text-align: center;
+}
