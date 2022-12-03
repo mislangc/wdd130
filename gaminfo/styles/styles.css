@@ -91,11 +91,11 @@
 }
 
 /*Hero Part*/
-#home-hero {
+#home-hero, #albion-hero {
     display: grid;
     grid-template-columns: 100%;
 }
-.home-hero-image {
+.home-hero-image, .albion-hero-image {
     grid-column: 1/2;
     grid-row: 1/2;
     width: 100%;
@@ -109,6 +109,18 @@
     font-family: "Press Start 2P";
     color: #e77a23;
     font-size: 6em;
+    text-align: center;
+    text-shadow: 10px 10px 10px #535353;
+}
+#albion-hero section {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: 0 auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: "Press Start 2P";
+    color: #e77a23;
+    font-size: 4em;
     text-align: center;
     text-shadow: 10px 10px 10px #535353;
 }
@@ -375,3 +387,103 @@ footer #social-media-links img:hover {
     font-size: 2em;
     text-align: center;
 }
+
+/*3rd Subpage*/
+
+/*Introduction*/
+.albion-intro {
+    width: 80%;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+    color: white;
+    background-color: #535353;
+    font-family: Teko;
+    font-size: 1.3em;
+    box-shadow: 10px 10px 10px #535353;
+    padding: 1.5em
+}
+
+.albion-intro h3 {
+    font-family: "Press Start 2P";
+}
+
+/*Character Customization*/
+#albion-middle {
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+}
+#albion-middle img {
+    grid-column: 2/3;
+    width: 100%;
+    box-shadow: 10px 10px 10px #535353;
+}
+#albion-middle p {
+    grid-column: 2/3;
+    width: 95%;
+    margin: auto;
+    margin-top: -2em;
+    margin-bottom: 2em;
+    text-align: center;
+    color: white;
+    background-color: #535353;
+    font-family: Teko;
+    font-size: 1.3em;
+    box-shadow: 10px 10px 10px #535353;
+    padding: 1.5em
+    
+}
+#albion-middle p:hover {
+    transition: 0.4s;
+    transform: scale(1.05);
+}
+
+/*Main Title*/
+.albion-main-title {
+    text-align: center;
+    font-family: "Press Start 2P";
+    font-size: 2em;
+    color: #e77a23;
+    margin-top: 2em;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+/*Main Content*/
+#albion-main-middle {
+    display: grid;
+    grid-template-columns: 50px 2fr 1fr 1fr 1fr 2fr 50px;
+    
+}
+.forest-image {
+    grid-column: 2/4;
+}
+.highland-image {
+    grid-column: 5/7;
+}
+.mountain-image {
+    grid-column: 3/6;
+}
+.steppe-image {
+    grid-column: 2/4;
+}
+.swamp-image {
+    grid-column: 5/7;
+}
+#albion-main-middle img{
+    max-width: 100%;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px #535353;
+}
+#albion-main-middle img:hover {
+    transition: 0.4s;
+    transform: scale(1.1);
+}
+#albion-main-middle h3 {
+    text-align: center;
+    font-family: Teko;
+    font-size: 2.5em;
+    margin-top: 0;
+}
+
